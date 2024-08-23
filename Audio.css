@@ -1,0 +1,41 @@
+body {
+    padding-top: 100px;
+    color: violet;
+    background-color: tan;     
+    padding: 10px;
+}
+h1 {    /*submit your word*/
+    padding: 20px;
+    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    color: whitesmoke;   
+}
+p {   /*checker title*/
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: wavy;
+    font-style: italic;
+    color: white; 
+}
+footer {   /* Height footer */
+    padding-bottom: 150px; 
+    text-align: right; margin-bottom: auto; 
+    color: wheat;
+    font-size: large;
+    font-style: bold;
+    font-family: cursive;
+} 
+h3 {    /*image*/
+    position: center;
+    size: 10px;
+    text-align: center;
+}
+h4 /* Basic styling for the image */
+#movingImage {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+}

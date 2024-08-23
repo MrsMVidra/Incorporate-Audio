@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src= "Audio.js"></script>
+    <link href = "Audio.css" rel = "stylesheet" type = "text/css"/>
+        <title>Incorporate Audio into Palindrome</title>
+</head>
+    <body>
+        <p id = "palchkr"> Palindrome Checker ✔️</p>
+    <form onsubmit = "return false">
+        <h1>
+        Let's Try a Palindrome🤠       <input type = "text" id = "firstStr"/>
+        <br>
+    <!--click submit to answer--> 
+        <input type = "submit" onclick = "reverse();"/> 
+        </h1>
+            </form>
+    <!--image-->        
+<h3><img src="relac.jpg"></h3>
+<h4>
+  <!--Audio file-->
+  <audio controls>
+    <source src="goodtimes.mp3" type="audio/mp3"></source>
+</audio>
+<!-- Image to move -->
+<img id="movingImage" src="musicnotes.png" alt="Moving Image">
+<!--break--> <br>
+<!-- button to play music-->
+<button id = "startButton" onclick="Goodtime();">Play</button>
+<!-- button to stop music-->
+<button id = "stopButton"  onclick="stopMusic();">Stop</button>
+<!--copyright-->
+<footer>MV</footer>
+</body>
+</html>
